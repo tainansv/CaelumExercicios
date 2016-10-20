@@ -5,15 +5,21 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import tarefas.ConnectionFactory;
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
 import tarefas.modelo.Usuario;
 
+@Repository
 public class JdbcUsuarioDao {
 	private Connection connection;
 
-	public JdbcUsuarioDao() {
+	@Autowired
+	public JdbcUsuarioDao(DataSource dataSource) {
 		try {
-			connection = new ConnectionFactory().getConnection();
+			this.connection = dataSource.getConnection();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}

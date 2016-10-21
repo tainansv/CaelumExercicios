@@ -5,10 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css"	href="resources/style.css" />
 </head>
 <body>
 
-	Nova tarefa adicionada!
+	<div>
+		<h3>Nova tarefa adicionada!</h3>
+	</div>
 
 	<form action="listaTarefas">
 		<input type="submit" value="Volta a lista" />

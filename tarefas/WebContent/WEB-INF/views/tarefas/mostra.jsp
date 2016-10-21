@@ -10,6 +10,7 @@
 <link type="text/css" href="resources/css/jquery-ui.css" rel="stylesheet">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="resources/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css"	href="resources/style.css" />
 </head>
 <body>
 

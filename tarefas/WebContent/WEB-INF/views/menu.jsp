@@ -4,14 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Menu</title>
+<link rel="stylesheet" type="text/css"	href="resources/style.css" />
 </head>
 <body>
 
 	<h2>Página inicial da Lista de Tarefas</h2>
 	<p>Bem vindo, ${usuarioLogado.login}</p>
 	<a href="listaTarefas">Clique aqui</a> para acessar a lista de tarefas
-	<br>
+	<br><br>
 	<a href="logout">Sair do Sistema</a>
 
 </body>

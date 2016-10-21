@@ -1,5 +1,35 @@
 @CHARSET "ISO-8859-1";
 
+body {
+	padding: 20px;
+}
+
 div {
 	text-align: center;
+}
+
+a {
+	border: solid 2px;
+	border-radius: 8px;
+	border-color: #aaaaff;
+	background-color: #eeeeff;
+	padding: 4px;
+	text-decoration: none;
+	color: blue;
+}
+
+table {
+	width: 650px;
+}
+
+th {
+	background-color: #aaaaff;
+}
+
+tr:NTH-CHILD(even) {
+	background-color: #eeeeff;
+}
+
+td {
+	padding: 6px;
 }

@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
 
 import org.junit.Test;
 
-public class NegociacaoTest {
+public class NegociacaoTest{
 
 	@Test
 	public void dataDaNegociacaoEhImutavel() {

@@ -161,9 +161,9 @@ public class CandlestickFactoryTest {
 		Negociacao negociacao7 = new Negociacao(51.8, 100, depois);
 		Negociacao negociacao8 = new Negociacao(52.3, 100, depois);
 		
-		List<Negociacao> negociacoes = Arrays.asList(negociacao1, negociacao3,
-		negociacao5, negociacao4, negociacao2, negociacao6, negociacao7,
-		negociacao8);
+		List<Negociacao> negociacoes = Arrays.asList(negociacao1, negociacao5,
+		negociacao8, negociacao4, negociacao2, negociacao6, negociacao7,
+		negociacao3);
 		CandlestickFactory fabrica = new CandlestickFactory();
 		
 		List<Candlestick> candles = fabrica.constroiCandles(negociacoes);

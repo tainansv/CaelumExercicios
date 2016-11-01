@@ -2,7 +2,8 @@ package br.com.tainan.argentum.modelo;
 
 import java.util.Calendar;
 
-public final class Negociacao {
+
+public final class Negociacao{
 
 	private final double preco;
 	private final int quantidade;
@@ -37,4 +38,6 @@ public final class Negociacao {
 				this.data.get(Calendar.MONTH) == outraData.get(Calendar.MONTH) &&
 				this.data.get(Calendar.YEAR) == outraData.get(Calendar.YEAR);
 	}
+	
+
 }
